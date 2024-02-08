@@ -15,7 +15,7 @@
 # отводится времени 1.5 часа.
 """
 
-print('Ну что начнем?')
+print('Ну что начнем ?')
 OneSugar = 1.5/48
 OneMaslo = 1/48
 OneMuka  = 2.75/48
@@ -26,6 +26,6 @@ print(f'На приготовление одной булочки уходит: 
 print(f'соответственно, \n')
 bulok = int(input(f'сколько вы хотите приготовить булочек? '))
 print('ok, на такое количество (',bulok, ' шт.) у вас уйдет ингридиентов:')
-print('Сахара: ', OneSugar * bulok, ' единиц')
-print('Масла: ', OneMaslo * bulok, ' единиц')
-print('Муки: ', OneMuka * bulok, ' единиц')
+print('Сахара: ', OneSugar * bulok, ' стакана')
+print('Масла: ', OneMaslo * bulok, ' стакана')
+print('Муки: ', OneMuka * bulok, ' стакана')
